@@ -1,3 +1,5 @@
+# [GITHUB看不了图片看这里预览](https://gitee.com/yuanundo/LetterBlog/blob/master/README.md)
+
 # 字节博客 LetterBlog
 
 ### 如需完整版代码，请联系博主QQ,有偿: 528290695，可帮助部署调试等。
