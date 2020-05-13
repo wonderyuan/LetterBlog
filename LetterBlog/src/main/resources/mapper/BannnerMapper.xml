@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.letterblog.blog.mapper.BannerMapper" >
+  <resultMap id="BaseResultMap" type="com.letterblog.blog.entity.Banner" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="banner_name" property="bannerName" jdbcType="VARCHAR" />
+    <result column="banner_url" property="bannerUrl" jdbcType="VARCHAR" />
+    <result column="banner_img" property="bannerImg" jdbcType="VARCHAR" />
+    <result column="banner_state" property="bannerState" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  
+  <sql id="Base_Column_List" >
+    id, banner_name, banner_url, banner_img,banner_state, create_time
+  </sql>
+
+  <insert id="addBanner" parameterType="com.letterblog.blog.entity.Banner">
+    insert into banner(banner_name,banner_url,banner_img,banner_state,create_time) values (#{bannerName}, #{bannerUrl},#{bannerImg},#{bannerState},now(6))
+  </insert>
+  <select id="queryAllBanner" parameterType="com.letterblog.blog.entity.Banner" resultMap="BaseResultMap">
+    select * from banner order by create_time desc
+  </select>
+  <update id="updateBanner" parameterType="com.letterblog.blog.entity.Banner">
+    update banner
+    <set>
+      <if test="bannerName != null and bannerName !=''">
+         banner_name = #{bannerName},
+      </if>
+      <if test="bannerUrl != null and bannerUrl !=''">
+        banner_url = #{bannerUrl},
+      </if>
+      <if test="bannerImg != null and bannerImg !=''">
+        banner_img = #{bannerImg},
+      </if>
+      <if test="bannerState != null">
+        banner_state = #{bannerState},
+      </if>
+    </set>
+    where id = #{id}
+  </update>
+  <delete id="deleteBanner">
+    delete from banner where id = #{id}
+  </delete>
+  <select id="selectNormalBanner" resultMap="BaseResultMap">
+    select * from banner where banner_state = 1 order by id asc limit 10
+  </select>
+  <select id="queryBannerById" resultMap="BaseResultMap">
+    select * from banner where id = #{id} limit 1
+  </select>
+</mapper>
