@@ -20,4 +20,20 @@
 
 * 7、其他功能优化。
 
-项目预览 ： https://gitee.com/yuanundo/LetterBlog/blob/master/README.md
+项目预览：
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog1.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog2.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog3.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog4.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog5.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog6.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog7.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog8.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog9.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog10.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog11.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog12.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog13.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog14.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog15.png)
+![Image text](https://github.com/wonderyuan/LetterBlog/blob/master/image/blog16.png)
