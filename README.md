@@ -2,7 +2,9 @@
 
 # 字节博客 LetterBlog
 
-### 如需完整版代码，请联系博主QQ,有偿: 528290695，可帮助部署调试等。
+### 如需完整版代码，请联系博主VX：wonderhooyou, QQ: 528290695 ,有偿，可帮助部署调试等。
+
+![Image text](https://github.com/wonderyuan/Image-Storage/blob/master/WechatIMG22.jpeg)
 
 ### 基于Spring+Spring MVC+Mybatis+layui框架构建的博客、论坛、新闻、文章发布系统。
 
